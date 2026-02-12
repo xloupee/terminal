@@ -10,7 +10,7 @@ type MarketColumnProps = {
 
 export function MarketColumn({ column }: MarketColumnProps) {
   return (
-    <section className="rounded-2xl border border-white/10 bg-black/70 backdrop-blur-md">
+    <section className="rounded-2xl border border-white/10">
       <header className="flex items-center justify-between border-b border-white/10 px-3 py-2.5">
         <div className="flex items-center gap-2">
           <h2 className="text-sm font-semibold tracking-wide text-slate-100">{column.title}</h2>
